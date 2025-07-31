@@ -35,129 +35,133 @@
 
         <!-- Begin Main Header Area -->
         <header class="main-header_area position-relative">
-            <div class="header-top py-6 py-lg-3" data-bg-color="#ff5e13">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="offset-xl-2 offset-lg-3 col-xl-4 col-lg-5 d-none d-lg-block">
-                            <div class="header-top-left ml-8">
-                                <div class="contact-number">
-                                    <img src="assets/images/header/icon/phone.png" alt="Phone Icon">
-                                    <a href="tel://01225-265-847">+91-8925076675</a>
-                                </div>
-                                <div class="time-schedule">
-                                    <img src="assets/images/header/icon/clock.png" alt="Clock Icon">
-                                    <span>9.00 am - 11.00 pm</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 d-block d-lg-none">
-                            <div class="header-logo d-flex">
-                                <a href="index.html">
-                                    <img class="d-none d-lg-block" src="assets/images/logo/dark.png" alt="Header Logo">
-                                    <img class="d-block d-lg-none" src="assets/images/logo/light.png" alt="Header Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-xl-5 col-lg-4 col-sm-6">
-                            <div class="header-top-right">
-                                <ul class="hassub-item">
-                                    <li class="login-info">
-                                        <a href="#"> <i class="fa fa-envelope"></i> sribajali@gmail.com</a>
-                                    </li>
-
-
-                                    <li class="mobile-menu_wrap d-block d-lg-none">
-                                        <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
-                                            <i class="fa fa-navicon"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <!-- HEADER TOP: Visible on mobile (before scroll) -->
+<div class="header-top py-6 py-lg-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Desktop left section -->
+            <div class="offset-xl-2 offset-lg-3 col-xl-4 col-lg-5 d-none d-lg-block">
+                <div class="header-top-left ml-8">
+                    <div class="contact-number">
+                        <img src="assets/images/header/icon/phone.png" alt="Phone Icon">
+                        <a href="tel://01225-265-847">+91-8925076675</a>
+                    </div>
+                    <div class="time-schedule">
+                        <img src="assets/images/header/icon/clock.png" alt="Clock Icon">
+                        <span>9.00 am - 11.00 pm</span>
                     </div>
                 </div>
             </div>
-            <div class="main-header header-sticky" data-bg-color="#00225a">
-                <div class="container">
-                    <div class="main-header_nav">
-                        <div class="row align-items-center">
-                            <div class="offset-xl-2 col-xl-10 d-none d-lg-block">
-                                <div class="main-menu text-center">
-                                    <nav class="main-nav">
-                                        <ul>
-                                            <li class="drop-holder">
-                                                <a href="index.html"><span>Home</span></a>
-                                            </li>
-                                            <li>
-                                                <a href="about.html"><span>About Us</span></a>
-                                            </li>
-                                            <li class="drop-holder">
-                                                <a href="service.html"><span>Services</span></a>
-                                                <ul class="drop-menu">
-                                                    <li>
-                                                        <a href="power-tool.html">Power Tools Tools</a>
-                                                       
-                                                    </li>
-                                                    <li>
-                                                         <a href="hand-tool.html">Hand Tools</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
 
+            <!-- Mobile Logo -->
+            <div class="col-sm-6 d-block d-lg-none">
+                <div class="header-logo d-flex">
+                    <a href="index.html">
+                        <img src="assets/images/logo/sri-balaji-logo.png" alt="Header Logo" style="height: 40px;">
+                    </a>
+                </div>
+            </div>
 
-                                            <li class="drop-holder">
-                                                <a href="products.html"><span>Products</span></a>
-                                              
-                                            </li>
-                                            <li class="separator">
-                                                <a href="contact.html"><span>Contact</span></a>
-                                            </li>
-                                            <li class="hassub-item-wrap d-none d-lg-inline-flex">
-                                                <ul class="hassub-item">
-                                                    <li class="search-wrap hassub">
-                                                        <a href="#" class="search-btn">
-                                                            <i class="fa fa-search"></i>
-                                                        </a>
-                                                        <ul class="hassub-body search-body">
-                                                            <li>
-                                                                <form class="search-form" action="#">
-                                                                    <div class="form-field">
-                                                                        <input class="input-field" type="search"
-                                                                            name="Search" value="Search"
-                                                                            onblur="if(this.value==''){this.value='Search'}"
-                                                                            onfocus="if(this.value=='Search'){this.value=''}">
-                                                                    </div>
-                                                                    <div class="form-btn_wrap">
-                                                                        <button
-                                                                            class="btn btn-secondary btn-primary-hover rounded-0">
-                                                                            <i class="fa fa-search"></i>
-                                                                        </button>
-                                                                    </div>
-                                                                </form>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-logo-wrap d-none d-lg-flex">
-
-                        <div class="header-fixed-logo" style="text-align: center; padding: 10px 0;">
-                            <a href="index.html">
-                                <img src="assets/images/logo/sri-balaji-logo.png" alt="Sri Balaji Logo"
-                                    style="height: 120px; width: 100%; object-fit: contain;">
+            <!-- Email + Menu icon -->
+            <div class="col-xl-6 col-lg-4 col-sm-6">
+                <div class="header-top-right">
+                    <ul class="hassub-item d-flex justify-content-end align-items-center gap-3">
+                        <li class="login-info d-block">
+                            <a href="#"><i class="fa fa-envelope"></i> sribajali@gmail.com</a>
+                        </li>
+                        <li class="mobile-menu_wrap d-block d-lg-none">
+                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                <i class="fa fa-navicon fa-lg"></i>
                             </a>
-                        </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
+<!-- STICKY HEADER -->
+<div class="main-header header-sticky" data-bg-color="#00225a">
+    <div class="container">
+        <div class="main-header_nav">
+            <div class="row align-items-center">
+                <div class="offset-xl-2 col-xl-10 d-none d-lg-block">
+                    <div class="main-menu text-center">
+                        <nav class="main-nav">
+                            <ul>
+                                <li ><a href="index.html" class="active"><span>Home</span></a></li>
+                                <li><a href="about.html"><span>About Us</span></a></li>
+                                <li class="drop-holder">
+                                    <a href="service.html"><span>Services</span></a>
+                                    <ul class="drop-menu">
+                                        <li><a href="power-tool.html">Power Tools</a></li>
+                                        <li><a href="hand-tool.html">Hand Tools</a></li>
+                                    </ul>
+                                </li>
+                                <li class="drop-holder"><a href="products.html"><span>Products</span></a></li>
+                                <li class="separator"><a href="contact.html"><span>Contact</span></a></li>
+                                <li class="hassub-item-wrap d-none d-lg-inline-flex">
+                                    <ul class="hassub-item">
+                                        <li class="search-wrap hassub">
+                                            <a href="#" class="search-btn"><i class="fa fa-search"></i></a>
+                                            <ul class="hassub-body search-body">
+                                                <li>
+                                                    <form class="search-form" action="#">
+                                                        <div class="form-field">
+                                                            <input class="input-field" type="search" name="Search" value="Search"
+                                                                onblur="if(this.value==''){this.value='Search'}"
+                                                                onfocus="if(this.value=='Search'){this.value=''}">
+                                                        </div>
+                                                        <div class="form-btn_wrap">
+                                                            <button class="btn btn-secondary btn-primary-hover rounded-0">
+                                                                <i class="fa fa-search"></i>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- ✅ MOBILE LOGO, EMAIL & MENU IN STICKY HEADER -->
+        <div class="d-flex d-lg-none justify-content-between align-items-center py-2">
+            <!-- Logo -->
+            <div class="mobile-logo">
+                <a href="index.html">
+                    <img src="assets/images/logo/sri-balaji-logo.png" alt="Mobile Logo">
+                </a>
+            </div>
+
+            <!-- Email -->
+        
+
+            <!-- Menu Icon -->
+            <div>
+                <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn" style="color: #fff;">
+                    <i class="fa fa-navicon fa-lg"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- DESKTOP LOGO -->
+        <div class="header-logo-wrap d-none d-lg-flex justify-content-center py-2">
+            <div class="header-fixed-logo">
+                <a href="index.html">
+                    <img src="assets/images/logo/sri-balaji-logo.png" alt="Sri Balaji Logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
             <div class="mobile-menu_wrapper" id="mobileMenu">
                 <div class="offcanvas-body">
                     <div class="inner-body">
@@ -791,7 +795,7 @@
                             <div class="widget-item text-hawkes-blue">
                                 <div class="footer-logo pb-5">
                                     <a href="#">
-                                        <img style="height: 150px;" src="assets/images/logo/sri-balaji-logo.png" alt="Logo">
+                                        <img src="assets/images/logo/sri-balaji-logo.png" alt="Logo">
                                     </a>
                                 </div>
                                 <p class="short-desc font-size-16 mb-5">Our tools are not just built for construction they are crafted with precision, designed to endure both the toil and the satisfaction that come with every job.</p>
@@ -884,7 +888,7 @@
                         <div class="col-md-6 col-sm-8 align-self-center">
                             <div class="copyright">
                                 <span class="copyright-text">© 2022 Sri Balaji Co - Power and Hand Tools Dealers Made
-                                    with by <a href="#" rel="noopener" target="_blank">Sri Balaji</a> </span>
+                                    with by <a href="https://sarstechno.com" rel="noopener" target="_blank">SARS Tecnologies</a> </span>
                             </div>
                         </div>
                     </div>
