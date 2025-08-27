@@ -37,133 +37,137 @@
     <div class="main-wrapper">
 
         <!-- Begin Main Header Area -->
-         <header class="main-header_area position-relative">
+        <header class="main-header_area position-relative">
             <!-- HEADER TOP: Visible on mobile (before scroll) -->
-<div class="header-top py-6 py-lg-3">
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Desktop left section -->
-            <div class="offset-xl-2 offset-lg-3 col-xl-4 col-lg-5 d-none d-lg-block">
-                <div class="header-top-left ml-8">
-                    <div class="contact-number">
-                        <img src="assets/images/header/icon/phone.png" alt="Phone Icon">
-                        <a href="tel://01225-265-847">+91-8925076675</a>
-                    </div>
-                    <div class="time-schedule">
-                        <img src="assets/images/header/icon/clock.png" alt="Clock Icon">
-                        <span>9.00 am - 11.00 pm</span>
+            <div class="header-top py-6 py-lg-3">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <!-- Desktop left section -->
+                        <div class="offset-xl-2 offset-lg-3 col-xl-4 col-lg-5 d-none d-lg-block">
+                            <div class="header-top-left ml-8">
+                                <div class="contact-number">
+                                    <img src="assets/images/header/icon/phone.png" alt="Phone Icon">
+                                    <a href="tel://01225-265-847">+91-8925076675</a>
+                                </div>
+                                <div class="time-schedule">
+                                    <img src="assets/images/header/icon/clock.png" alt="Clock Icon">
+                                    <span>9.00 am - 11.00 pm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mobile Logo -->
+                        <div class="col-sm-6 d-block d-lg-none">
+                            <div class="header-logo d-flex">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/sri-balaji-logo.png" alt="Header Logo"
+                                        style="height: 40px;">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Email + Menu icon -->
+                        <div class="col-xl-6 col-lg-4 col-sm-6">
+                            <div class="header-top-right">
+                                <ul class="hassub-item d-flex justify-content-end align-items-center gap-3">
+                                    <li class="login-info d-block">
+                                        <a href="#"><i class="fa fa-envelope"></i> sribajali@gmail.com</a>
+                                    </li>
+                                    <li class="mobile-menu_wrap d-block d-lg-none">
+                                        <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                                            <i class="fa fa-navicon fa-lg"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Mobile Logo -->
-            <div class="col-sm-6 d-block d-lg-none">
-                <div class="header-logo d-flex">
-                    <a href="index.html">
-                        <img src="assets/images/logo/sri-balaji-logo.png" alt="Header Logo" style="height: 40px;">
-                    </a>
-                </div>
-            </div>
+            <!-- STICKY HEADER -->
+            <div class="main-header header-sticky" data-bg-color="#00225a">
+                <div class="container">
+                    <div class="main-header_nav">
+                        <div class="row align-items-center">
+                            <div class="offset-xl-2 col-xl-10 d-none d-lg-block">
+                                <div class="main-menu text-center">
+                                    <nav class="main-nav">
+                                        <ul>
+                                            <li><a href="index.html" class="active"><span>Home</span></a></li>
+                                            <li><a href="about.html"><span>About Us</span></a></li>
+                                            <li class="drop-holder">
+                                                <a href="service.html"><span>Services</span></a>
+                                                <ul class="drop-menu">
+                                                    <li><a href="power-tool.html">Power Tools</a></li>
+                                                    <li><a href="hand-tool.html">Hand Tools</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="drop-holder"><a href="products.html"><span>Products</span></a>
+                                            </li>
+                                            <li class="separator"><a href="contact.html"><span>Contact</span></a></li>
+                                            <li class="hassub-item-wrap d-none d-lg-inline-flex">
+                                                <ul class="hassub-item">
+                                                    <li class="search-wrap hassub">
+                                                        <a href="#" class="search-btn"><i class="fa fa-search"></i></a>
+                                                        <ul class="hassub-body search-body">
+                                                            <li>
+                                                                <form class="search-form" action="#">
+                                                                    <div class="form-field">
+                                                                        <input class="input-field" type="search"
+                                                                            name="Search" value="Search"
+                                                                            onblur="if(this.value==''){this.value='Search'}"
+                                                                            onfocus="if(this.value=='Search'){this.value=''}">
+                                                                    </div>
+                                                                    <div class="form-btn_wrap">
+                                                                        <button
+                                                                            class="btn btn-secondary btn-primary-hover rounded-0">
+                                                                            <i class="fa fa-search"></i>
+                                                                        </button>
+                                                                    </div>
+                                                                </form>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- Email + Menu icon -->
-            <div class="col-xl-6 col-lg-4 col-sm-6">
-                <div class="header-top-right">
-                    <ul class="hassub-item d-flex justify-content-end align-items-center gap-3">
-                        <li class="login-info d-block">
-                            <a href="#"><i class="fa fa-envelope"></i> sribajali@gmail.com</a>
-                        </li>
-                        <li class="mobile-menu_wrap d-block d-lg-none">
-                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn pl-0">
+                    <!-- ✅ MOBILE LOGO, EMAIL & MENU IN STICKY HEADER -->
+                    <div class="d-flex d-lg-none justify-content-between align-items-center py-2">
+                        <!-- Logo -->
+                        <div class="mobile-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/sri-balaji-logo.png" alt="Mobile Logo">
+                            </a>
+                        </div>
+
+                        <!-- Email -->
+
+
+                        <!-- Menu Icon -->
+                        <div>
+                            <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn" style="color: #fff;">
                                 <i class="fa fa-navicon fa-lg"></i>
                             </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                        </div>
+                    </div>
 
-<!-- STICKY HEADER -->
-<div class="main-header header-sticky" data-bg-color="#00225a">
-    <div class="container">
-        <div class="main-header_nav">
-            <div class="row align-items-center">
-                <div class="offset-xl-2 col-xl-10 d-none d-lg-block">
-                    <div class="main-menu text-center">
-                        <nav class="main-nav">
-                            <ul>
-                                <li ><a href="index.html" class="active"><span>Home</span></a></li>
-                                <li><a href="about.html"><span>About Us</span></a></li>
-                                <li class="drop-holder">
-                                    <a href="service.html"><span>Services</span></a>
-                                    <ul class="drop-menu">
-                                        <li><a href="power-tool.html">Power Tools</a></li>
-                                        <li><a href="hand-tool.html">Hand Tools</a></li>
-                                    </ul>
-                                </li>
-                                <li class="drop-holder"><a href="products.html"><span>Products</span></a></li>
-                                <li class="separator"><a href="contact.html"><span>Contact</span></a></li>
-                                <li class="hassub-item-wrap d-none d-lg-inline-flex">
-                                    <ul class="hassub-item">
-                                        <li class="search-wrap hassub">
-                                            <a href="#" class="search-btn"><i class="fa fa-search"></i></a>
-                                            <ul class="hassub-body search-body">
-                                                <li>
-                                                    <form class="search-form" action="#">
-                                                        <div class="form-field">
-                                                            <input class="input-field" type="search" name="Search" value="Search"
-                                                                onblur="if(this.value==''){this.value='Search'}"
-                                                                onfocus="if(this.value=='Search'){this.value=''}">
-                                                        </div>
-                                                        <div class="form-btn_wrap">
-                                                            <button class="btn btn-secondary btn-primary-hover rounded-0">
-                                                                <i class="fa fa-search"></i>
-                                                            </button>
-                                                        </div>
-                                                    </form>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </nav>
+                    <!-- DESKTOP LOGO -->
+                    <div class="header-logo-wrap d-none d-lg-flex justify-content-center py-2">
+                        <div class="header-fixed-logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo/sri-balaji-logo.png" alt="Sri Balaji Logo">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- ✅ MOBILE LOGO, EMAIL & MENU IN STICKY HEADER -->
-        <div class="d-flex d-lg-none justify-content-between align-items-center py-2">
-            <!-- Logo -->
-            <div class="mobile-logo">
-                <a href="index.html">
-                    <img src="assets/images/logo/sri-balaji-logo.png" alt="Mobile Logo">
-                </a>
-            </div>
-
-            <!-- Email -->
-        
-
-            <!-- Menu Icon -->
-            <div>
-                <a href="#mobileMenu" class="mobile-menu_btn toolbar-btn" style="color: #fff;">
-                    <i class="fa fa-navicon fa-lg"></i>
-                </a>
-            </div>
-        </div>
-
-        <!-- DESKTOP LOGO -->
-        <div class="header-logo-wrap d-none d-lg-flex justify-content-center py-2">
-            <div class="header-fixed-logo">
-                <a href="index.html">
-                    <img src="assets/images/logo/sri-balaji-logo.png" alt="Sri Balaji Logo">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
 
             <div class="mobile-menu_wrapper" id="mobileMenu">
                 <div class="offcanvas-body">
@@ -208,9 +212,9 @@
                                             <span class="mm-text">Products</span>
                                         </a>
                                     </li>
-                                  
-                                   
-                                    
+
+
+
                                     <li>
                                         <a href="contact.html">
                                             <span class="mm-text">Contact</span>
@@ -284,22 +288,19 @@
         <!-- Breadcrumb Area End Here -->
 
         <!-- Begin Single Service Area -->
-         <div class="single-service-area py-140">
+      <div class="single-service-area py-140">
     <div class="container">
         <div class="row">
             <div class="col-lg-9 mx-auto">
                 <div class="single-service pe-lg-7">
-                    <div class="single-service-img">
-                        <img style="border-radius: 5%;" class="img-full" src="assets/images/hand-tool.jpg" alt="Service Image" />
-                    </div>
 
                     <div class="single-service-content pt-10 pb-8">
-                        <h2 class="title font-size-60 mb-5">Hand Tools Solutions</h2>
+                        <h2 class="title font-size-60 mb-5">TV Repair Solutions</h2>
                         <h5 class="sub-title mb-5">
-                            We provide high-quality hand tools and services to ensure your work is precise, safe, and dependable. Trusted by professionals, supported by expert advice and reliable equipment.
+                            We provide reliable TV repair services to bring your entertainment back to life. With expert technicians, modern tools, and trusted spare parts, we ensure your TV works like new.
                         </h5>
                         <p class="short-desc mb-0">
-                            Our goal is to supply robust and ergonomic hand tools that deliver lasting performance and ease of use. Whether you're in construction, carpentry, automotive, or general maintenance, we offer tools that meet professional standards. Our expert team is ready to assist with choosing the right tool and providing continued support for maximum efficiency.
+                            Our commitment is to deliver quick, affordable, and professional TV repair services. Whether it’s LED, LCD, Plasma, or Smart TV, we specialize in solving issues related to display, sound, power, and connectivity. Trust our skilled team to restore your TV’s performance and enhance your viewing experience.
                         </p>
                     </div>
 
@@ -307,13 +308,13 @@
                         <div class="col-lg-4">
                             <div class="featured-content pb-8 pb-lg-0">
                                 <p class="featured-desc mb-4">
-                                    Our hand tools are built for precision, durability, and user comfort — suitable for both delicate and heavy-duty tasks.
+                                    From minor glitches to major breakdowns, our repair solutions ensure long-lasting performance for your television.
                                 </p>
                                 <p class="featured-desc mb-4">
-                                    We provide tips on proper usage, maintenance, and safety to help extend tool lifespan and ensure top performance.
+                                    We offer doorstep service, genuine spare parts, and transparent pricing so you get the best value and complete peace of mind.
                                 </p>
                                 <p class="featured-desc mb-0">
-                                    Trusted by tradespeople and technicians for dependable results and expert support.
+                                    Trusted by households and businesses for quality, reliability, and expert TV repair services.
                                 </p>
                             </div>
                         </div>
@@ -321,18 +322,18 @@
                         <div class="col-lg-8">
                             <div class="featured-group-img d-flex">
                                 <div class="single-img pe-4">
-                                    <img src="assets/images/hand-tool/1.png" alt="Hand Tool Image" />
+                                    <img src="assets/images/tv-repair/1.png" alt="TV Repair Service" />
                                 </div>
                                 <div class="single-img">
-                                    <img src="assets/images/hand-tool/2.png" alt="Hand Tool Image" />
+                                    <img src="assets/images/tv-repair/2.png" alt="TV Repair Service" />
                                 </div>
                             </div>
                             <div class="featured-group-img d-flex">
                                 <div class="single-img pe-4">
-                                    <img src="assets/images/hand-tool/3.png" alt="Hand Tool Image" />
+                                    <img src="assets/images/tv-repair/3.png" alt="TV Repair Service" />
                                 </div>
                                 <div class="single-img">
-                                    <img src="assets/images/hand-tool/4.png" alt="Hand Tool Image" />
+                                    <img src="assets/images/tv-repair/4.png" alt="TV Repair Service" />
                                 </div>
                             </div>
                         </div>
@@ -340,7 +341,7 @@
                         <div class="col-lg-12">
                             <div class="featured-additional-content pt-8">
                                 <p class="featured-desc mb-0">
-                                    From cutting and tightening to measuring and shaping — our wide range of hand tools delivers precision and reliability. We prioritize user safety, ergonomic design, and durability, ensuring your projects are completed with confidence and comfort.
+                                    Whether it’s screen replacement, sound issues, power supply failure, or smart TV setup — our team ensures fast and reliable solutions. We focus on quality service and customer satisfaction to keep your TV running smoothly. Let us restore your entertainment with expert care.
                                 </p>
                             </div>
                         </div>
@@ -349,9 +350,9 @@
                     <div class="service-list-area row">
                         <div class="col-lg-6 pb-8 pt-lg-0">
                             <div class="service-list">
-                                <h2 class="title mb-3">Tool Categories</h2>
+                                <h2 class="title mb-3">Repair Services</h2>
                                 <p class="list-desc mb-4">
-                                    Browse our collection of essential hand tools crafted for durability and professional-grade performance.
+                                    Our technicians handle a wide range of TV issues with precision and care.
                                 </p>
                                 <ul class="list-item">
                                     <li>
@@ -359,7 +360,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="list-text">
-                                            <span>Wrenches, screwdrivers, and pliers</span>
+                                            <span>LED, LCD, Plasma, and Smart TV repairs</span>
                                         </div>
                                     </li>
                                     <li>
@@ -367,7 +368,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="list-text">
-                                            <span>Hammers, chisels, and mallets</span>
+                                            <span>Screen replacement and picture quality restoration</span>
                                         </div>
                                     </li>
                                     <li>
@@ -375,7 +376,7 @@
                                             <i class="fa fa-check"></i>
                                         </div>
                                         <div class="list-text">
-                                            <span>Measuring tapes, levels, and marking tools</span>
+                                            <span>Sound, power, and connectivity issue fixes</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -384,17 +385,14 @@
 
                         <div class="col-lg-6">
                             <div class="service-list">
-                                <h2 class="title mb-3">Service & Support</h2>
+                                <h2 class="title mb-3">Customer Support</h2>
                                 <p class="list-desc mb-4">
-                                    We offer expert consultation, after-sales support, and tool care advice to help you maintain peak tool performance.
+                                    We provide doorstep assistance, warranty-backed repairs, and expert consultation to give you a hassle-free experience.
                                 </p>
                                 <ul class="list-item">
-                                    <li>
-                                        Personalized guidance on tool usage and selection
-                                    </li>
-                                    <li>
-                                        Tool maintenance tips and professional servicing
-                                    </li>
+                                    <li>Free consultation and diagnosis</li>
+                                    <li>Genuine spare parts with warranty</li>
+                                    <li>Quick turnaround with expert technicians</li>
                                 </ul>
                             </div>
                         </div>
@@ -455,20 +453,14 @@
                             <div class="widget-item text-hawkes-blue">
                                 <div class="footer-logo pb-5">
                                     <a href="#">
-<<<<<<< HEAD
-                                        <img style="height: 150px;" src="assets/images/logo/sri-balaji-logo.png"
-                                            alt="Logo">
-=======
-                                        <img  src="assets/images/logo/sri-balaji-logo.png" alt="Logo">
->>>>>>> 22ee61dc3402a47f939c3242b2e6cc226b6f00d1
+                                        <img src="assets/images/logo/sri-balaji-logo.png" alt="Logo">
                                     </a>
                                 </div>
-                                <p class="short-desc font-size-16 mb-5">Our tools are not just built for construction
-                                    they are crafted with precision, designed to endure both the toil and the
-                                    satisfaction that come with every job.</p>
+                                <p class="short-desc font-size-16 mb-5">Construction of itself, because it is are <br>
+                                    but because some proper style design is occur in toil and pain pleasure</p>
                                 <div class="inquary">
                                     <h5 class="text-primary">For inquary</h5>
-                                    <a href="tel://+12345-879-854">+91-8925076675</a>
+                                    <a href="tel://+12345-879-854">+12345 879 854</a>
                                 </div>
                             </div>
                         </div>
@@ -476,14 +468,18 @@
                             <div class="widget-item">
                                 <h3 class="heading text-white mb-6">Information</h3>
                                 <ul class="widget-list-item text-hawkes-blue">
-
                                     <li>
                                         <a href="#">About us</a>
                                     </li>
                                     <li>
                                         <a href="#">Our Services</a>
                                     </li>
-
+                                    <li>
+                                        <a href="#">Recent Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our Team</a>
+                                    </li>
                                     <li>
                                         <a href="#">Contact us</a>
                                     </li>
@@ -495,15 +491,20 @@
                                 <h3 class="heading text-white mb-6">Quick Links</h3>
                                 <ul class="widget-list-item text-hawkes-blue">
                                     <li>
-                                        <a href="#">Power Tools</a>
+                                        <a href="#">Support Center</a>
                                     </li>
                                     <li>
-                                        <a href="#">Hand Tools</a>
+                                        <a href="#">Offers & Promotion</a>
                                     </li>
                                     <li>
-                                        <a href="#">products</a>
+                                        <a href="#">Terms & Conditions</a>
                                     </li>
-
+                                    <li>
+                                        <a href="#">Payment Method</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Clients & Reviews</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -515,7 +516,7 @@
                                         <p class="mb-1">5 and 6, Broadway Rd, Broadway, George Town, Chennai, Tamil Nadu
                                             600001
                                         </p>
-                                        <span>+91-8925076675</span>
+                                        <span>+12345 698 745 / +32145 852 785</span>
                                     </div>
 
                                 </div>
@@ -555,7 +556,8 @@
                         <div class="col-md-6 col-sm-8 align-self-center">
                             <div class="copyright">
                                 <span class="copyright-text">© 2022 Sri Balaji Co - Power and Hand Tools Dealers Made
-                                    with by <a href="https://sarstechno.com" rel="noopener" target="_blank">SARS Tecnologies</a> </span>
+                                    with by <a href="https://sarstechno.com" rel="noopener" target="_blank">SARS
+                                        Tecnologies</a> </span>
                             </div>
                         </div>
                     </div>

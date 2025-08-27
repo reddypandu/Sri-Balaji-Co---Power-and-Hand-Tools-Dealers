@@ -244,7 +244,7 @@ h1,
   font-family: "Rajdhani", sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #00225a;
+  color: #8f00ff;
 }
 
 h1,
@@ -18810,7 +18810,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  color: #00225a;
+  color:#8f00ff;
 }
 
 p {
@@ -19308,7 +19308,7 @@ img {
 }
 
 .text-primary * {
-  color: #ff5e13;
+  color:#8f00ff;
 }
 
 .text-secondary * {
@@ -19316,7 +19316,7 @@ img {
 }
 
 .text-hawkes-blue * {
-  color: #cfe1ff;
+  color:blue;
 }
 
 /* ---Section Title--- */
@@ -19419,7 +19419,7 @@ img {
   text-transform: uppercase;
   padding-bottom: 5px;
   font-weight: 700;
-  color: #ff5e13;
+  color:#8f00ff;
   display: block;
   font-size: 20px;
 }
@@ -21914,7 +21914,7 @@ input[type=checkbox]:checked+label:after {
 /* ---Single Service--- */
 .single-service-content .sub-title {
   font-weight: 500;
-  color: #ff5e13;
+  /* color: #ff5e13; */
   font-size: 28px;
 }
 
@@ -21933,7 +21933,7 @@ input[type=checkbox]:checked+label:after {
 
 .single-service .service-list-area .list-item li .list-icon i {
   vertical-align: middle;
-  color: #ff5e13;
+  color:#8f00ff;
 }
 
 .single-service .service-list-area .list-item li .list-text {
@@ -22617,7 +22617,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 .widget-item a:hover {
-  color: #fff;
+  color:#8f00ff;
 }
 
 .widget-item .inquary h5,
