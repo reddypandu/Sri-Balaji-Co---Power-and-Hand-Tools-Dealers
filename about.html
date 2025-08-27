@@ -467,73 +467,75 @@
       </div>
     </div>
 
-    <div class="row g-4">
-      <!-- Item 1 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/engineer.png" alt="Company Direct Engineers" class="mb-3" style="height:60px;">
-          <h5>Company Direct Engineers</h5>
-        </div>
+    <div class="process-flow d-flex justify-content-center align-items-center flex-wrap text-center">
+
+      <!-- Step 1 -->
+      <div class="process-step mx-3">
+        <img src="./assets/images/worker.png" alt="Company Direct Engineers" style="height:60px;" class="mb-2">
+        <h6>Company Direct Engineers</h6>
+      </div>
+      <span class="arrow">➝</span>
+
+      <!-- Step 2 -->
+      <div class="process-step mx-3">
+        <img src="./assets/images/quality-service.png" alt="Guarantee Service" style="height:60px;" class="mb-2">
+        <h6>Guarantee Service</h6>
+      </div>
+      <span class="arrow">➝</span>
+
+      <!-- Step 3 -->
+      <div class="process-step mx-3">
+        <img src="./assets/images/fast-delivery.png" alt="Same Day Service" style="height:60px;" class="mb-2">
+        <h6>Same Day Service</h6>
+      </div>
+      <span class="arrow">➝</span>
+
+      <!-- Step 4 -->
+      <div class="process-step mx-3">
+        <img src="./assets/images/salary.png" alt="Feasible Charges" style="height:60px;" class="mb-2">
+        <h6>Feasible Charges</h6>
+      </div>
+      <span class="arrow">➝</span>
+
+      <!-- Step 5 -->
+      <div class="process-step mx-3">
+        <img src="./assets/images/support.png" alt="Customer Support" style="height:60px;" class="mb-2">
+        <h6>Customer Support</h6>
       </div>
 
-      <!-- Item 2 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/guarantee.png" alt="Guarantee Service" class="mb-3" style="height:60px;">
-          <h5>Guarantee Service</h5>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/protection.png" alt="Damage Protection" class="mb-3" style="height:60px;">
-          <h5>Damage Protection</h5>
-        </div>
-      </div>
-
-      <!-- Item 4 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/van.png" alt="Service Van Pickup & Drop" class="mb-3" style="height:60px;">
-          <h5>Service Van Pickup & Drop</h5>
-        </div>
-      </div>
-
-      <!-- Item 5 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/charges.png" alt="Feasible Charges" class="mb-3" style="height:60px;">
-          <h5>Feasible Charges</h5>
-        </div>
-      </div>
-
-      <!-- Item 6 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/sameday.png" alt="Same Day Service" class="mb-3" style="height:60px;">
-          <h5>Same Day Service</h5>
-        </div>
-      </div>
-
-      <!-- Item 7 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/estimation.png" alt="Free Estimation" class="mb-3" style="height:60px;">
-          <h5>Free Estimation</h5>
-        </div>
-      </div>
-
-      <!-- Item 8 -->
-      <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="service-card text-center p-4 shadow-sm rounded">
-          <img src="assets/icons/support.png" alt="Customer Support" class="mb-3" style="height:60px;">
-          <h5>Customer Support</h5>
-        </div>
-      </div>
     </div>
   </div>
 </div>
+
+<!-- Responsive CSS -->
+<style>
+  .process-flow {
+    flex-wrap: wrap;
+  }
+
+  .process-step {
+    min-width: 140px;
+  }
+
+  .arrow {
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e63946; /* red arrow */
+  }
+
+  /* Mobile view: stack vertically */
+  @media (max-width: 768px) {
+    .process-flow {
+      flex-direction: column;
+    }
+    .arrow {
+      transform: rotate(90deg); /* turn arrow downward */
+      margin: 10px 0;
+    }
+  }
+</style>
+
 <!-- End Services/Products Area -->
 
 <!-- CSS -->
