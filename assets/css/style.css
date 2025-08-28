@@ -23274,7 +23274,7 @@ input[type=checkbox]:checked+label:after {
 
 .contact-content .sub-title {
   font-size: 28px;
-  color: #ff5e13;
+  color: #8f00ff;
   display: block;
 }
 
@@ -23284,7 +23284,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 .contact-info .title {
-  color: #ff5e13;
+  /* color: #ff5e13; */
   font-size: 28px;
 }
 
