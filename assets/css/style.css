@@ -21261,7 +21261,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 .banner-style-3 .banner-content:before {
-  color: #0d2d62;
+  color:#8f00ff;
   content: attr(data-count);
   display: block;
   position: absolute;
@@ -22258,7 +22258,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 .blog-content {
-  background-color: #f4f8ff;
+  /* background-color: #f4f8ff; */
   padding: 25px 30px 20px;
 }
 
