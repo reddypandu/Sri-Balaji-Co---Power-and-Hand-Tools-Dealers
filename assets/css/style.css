@@ -19315,9 +19315,9 @@ img {
   color: #00225a;
 }
 
-.text-hawkes-blue * {
+/* .text-hawkes-blue * {
   color:blue;
-}
+} */
 
 /* ---Section Title--- */
 @media (min-width: 992px) {
@@ -21605,7 +21605,7 @@ input[type=checkbox]:checked+label:after {
 }
 
 .about-content .list-icon i {
-  color: #ff5e13;
+  color: #8f00ff;
   vertical-align: middle;
 }
 
